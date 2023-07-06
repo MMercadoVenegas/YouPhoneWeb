@@ -1,0 +1,32 @@
+CONTEXTO:
+El principal problema por el cuál se hace la realización de la página web,
+es fundamentalmente la alta demanda que tienen las principales tiendas del 
+retail, donde en diversas ocasiones los productos de telefonía móvil no se 
+encuentran disponibles, o bien, tienen tiempos de espera para que lleguen a los 
+hogares.
+
+La solución propuesta es realizar una página web, la cuál nos permite realizar
+una compra y venta de productos de telefonía móviles más comunes en el retail,
+donde podemos encontrar productos Ios, Android, como también Harmony, donde el
+principal fin es poder tener una mejor opción, tanto en precios como en variedad
+de productos para los clientes que requieran de los servicios que la empresa y página
+web requieren como tal.
+
+Este proyecto se lleva a cabo, principalmente para todos los usuarios que quieren
+cambiar sus dispositivos móviles por uno más moderno o bien por uno de gama más alta,
+pero que no cuentan con el presupuesto de las grandes tiendas del retail, donde YOUPHONEWEB
+entrega y proporciona una mejor variedad de productos para que los clientes la puedan así
+adquirir, donde también podrán dejar sus aparatos móviles más antiguos, para poder darlos en
+parte de pago, y que no se haga tan dificil poder adquirir uno nuevo.
+
+Por otra parte, se podrá comprar tanto por la página web, como también tendrá diversos
+puntos de entrega y lugares habilitados donde poder ir a retirarlos en caso de efectuar
+la compra de los móviles en cuestion, pudiendo así entregarle a los clientes un servicio 
+más eficiente.
+
+REQUERIMIENTOS FUNCIONALES:
+RF001: Registrar una cuenta de usuario.
+RF002: Consultar por disponibilidad de productos.
+RF003: Compra de aparatos móviles.
+RF004: Consultar sobre sus garantías y lugares de entrega.
+RF005: Consultar sobre las bases del servicio técnico.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .tab {
+      overflow: hidden;
+    }
+    
+    .tab-content {
+      display: none;
+      padding: 16px;
+      background-color: #f1f1f1;
+    }
+    
+    .tab-button {
+      background-color: rgb(255, 0, 85);
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Ejemplo de pestañas con botones</h2>
+  
+  <div class="tab">
+    <button class="tab-button" onclick="toggleTab(1)">Botón 1</button>
+    <div id="tabContent1" class="tab-content">
+      <p>Contenido de la pestaña 1.</p>
+    </div>
+  </div>
+  
+  <div class="tab">
+    <button class="tab-button" onclick="toggleTab(2)">Botón 2</button>
+    <div id="tabContent2" class="tab-content">
+      <p>Contenido de la pestaña 2.</p>
+    </div>
+  </div>
+  
+  <script>
+    function toggleTab(tabNumber) {
+      var tabContent = document.getElementById("tabContent" + tabNumber);
+      
+      if (tabContent.style.display === "none") {
+        tabContent.style.display = "block";
+      } else {
+        tabContent.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
